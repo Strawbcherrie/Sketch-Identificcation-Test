@@ -1,0 +1,63 @@
+body{
+    background-color: darkturquoise;
+    border-style: dotted;
+    border-width:2ch;
+    border-color: deeppink;
+}
+#confidence{
+    font-size: 25px;
+    color:white;
+    border-bottom-color: yellow;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-left-color: yellow;
+    border-left-width: 3px;
+    border-left-style: solid;
+    width: 300px;
+    height: 45px;
+}
+
+#label{
+    font-size: 25px;
+    color:white;
+    border-bottom-color: yellow;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-left-color: yellow;
+    border-left-width: 3px;
+    border-left-style: solid;
+    width: 100px;
+    height: 45px;
+}
+
+p{
+    padding: 10px;
+}
+
+
+
+#show_sketch{
+    float: right;
+    border-color: darkviolet;
+    border-width: 1ch;
+}
+
+.clearcanvasbtn{
+    padding:10px;
+    margin-top: 450px;
+}
+/* canvas is an html tag */
+canvas{
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    animation-iteration-count: infinite;
+    animation-name: example;
+    animation-duration: 5s;
+    
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px royalblue;}
+    to{box-shadow:1px 1px 38px palevioletred;}
+}
